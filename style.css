@@ -71,3 +71,113 @@ body {
 
 /* Second Section */
 
+.second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15% 150px 15%;
+    gap: 36px;
+}
+
+.second-content .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.second-content .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.second-content img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.second-content .container {
+    display: flex;
+    gap: 24px;
+}
+
+/* Third Section */
+
+.third-content {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20% 100px 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-content .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.third-content .citation {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* Fourth Section */
+
+.fourth-content {
+    margin: 100px 10% 100px 10%;
+    background: #3882F6;
+    color: white;
+    border-radius: 8px; 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.fourth-content .container {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    height: 125px;
+
+}
+
+.fourth-content button {
+    background: #3882F6;
+    color: white;
+    width: 135px;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.fourth-content .call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fourth-content .sign-up {
+    color: #E5E7EB;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background: #1f2937;
+    color: white;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
